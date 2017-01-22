@@ -10,7 +10,7 @@ curl -X POST \
         },
         {
             "type":"text",
-            "text":"Hello, world2"
+            "text":"マッスル！！　今日の摂取カロリーは1600kcal""
         }
     ]
 }' https://api.line.me/v2/bot/message/push
