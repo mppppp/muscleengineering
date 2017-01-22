@@ -1,0 +1,43 @@
+.backImage{
+	width:				100%;
+	height:					100%;
+	background-image: 		url(muscle.jpg);
+  background-position: center center;
+　background-repeat: no-repeat;
+　background-attachment: fixed;
+  background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
+    filter: 				alpha(opacity=50);
+    -moz-opacity:			0.5;
+    opacity:				0.5;
+
+}
+.text {
+	width:		100%;
+	font-size:	130%;
+	text-align:	center;
+	color:		#fff;
+}
+.main {
+    width: 100%;
+}
+.main div   {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hoge {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 200px;
+}
+.title {
+	width:		100%;
+	font-size:	200%;
+	text-align:	center;
+	bottom:		4px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+	background:	rgba(0,0,0,0.4); /* 帯の透明度 */
+}
